@@ -1,4 +1,12 @@
-package PACKAGE_NAME;
+public class Dog extends Animal{
 
-public class Dog {
+    public Dog(String eat, String origen) {
+        super(eat, origen);
+    }
+
+    @Override
+    public void makeSounds() {
+        System.out.println("woff woff");
+    }
+
 }

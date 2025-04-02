@@ -1,4 +1,13 @@
-package PACKAGE_NAME;
+public class Orc extends Enemy{
 
-public class Orc {
+
+    public Orc(int health) {
+        super(health);
+    }
+
+
+    @Override
+    public void attac() {
+        System.out.println("Orc attack's");
+    }
 }

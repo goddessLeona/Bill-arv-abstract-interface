@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class Gobling extends Enemy{
 
-public class Gobling {
+    public Gobling(int health) {
+        super(health);
+    }
+
+    @Override
+    public void attac() {
+        System.out.println("Gobeling attac's");
+    }
 }
